@@ -48,7 +48,7 @@ const getResult = () => {
         case 'PaperScissor':
         case 'ScissorRock':
         case 'RockPaper':
-            result.innerHTML = "You Lose"
+            result.innerHTML = "You Lose, Win Streak Reset"
             winStreak = 0
             total.innerHTML = "Win Streak: " + winStreak
             break
