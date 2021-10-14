@@ -37,6 +37,9 @@ for (let i = 0; i < choices.length; i++){
     button.id = choices[i]
     button.innerHTML = choices[i]
     button.addEventListener('click', handleClick)
+    if(i == 0){
+        button.setAttribute("style", "background-color: red;")
+    }
     gameGrid.appendChild(button)
 }
 
@@ -64,3 +67,7 @@ const getResult = () => {
             break
     }
 }
+
+user.setAttribute("style", 
+" margin: 70px; padding: 25px 50px 75px 100px; text-align: center;")
+
