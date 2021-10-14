@@ -1,7 +1,11 @@
 const user = document.createElement('h1')
+user.setAttribute("id", "user")
 const computer = document.createElement('h1')
+computer.setAttribute("id", "computer")
 const result = document.createElement('h1')
+result.setAttribute("id", "result")
 const total = document.createElement('h1')
+total.setAttribute("id", "total")
 const gameGrid = document.getElementById('game')
 
 gameGrid.append(user, computer, result, total)
