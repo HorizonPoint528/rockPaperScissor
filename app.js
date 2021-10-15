@@ -69,5 +69,5 @@ const getResult = () => {
 }
 
 user.setAttribute("style", 
-" margin: 70px; padding: 25px 50px 75px 100px; text-align: center;")
+"padding: 25px 50px 75px 100px; text-align: center;")
 
