@@ -2,9 +2,9 @@ A Rock Paper Scissor Game made with JavaScript. Adapted from https://www.youtube
 
 New Features added:
 - Win Streaks
-
+- Win Counter
+- CSS Styling 
 
 Features to add:
-- CSS Styling
 - Animations / Images
 - High Score 
