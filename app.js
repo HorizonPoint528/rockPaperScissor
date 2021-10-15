@@ -37,8 +37,20 @@ for (let i = 0; i < choices.length; i++){
     button.id = choices[i]
     button.innerHTML = choices[i]
     button.addEventListener('click', handleClick)
+    button.setAttribute("style","cursor: pointer;")
+    button.style.padding = "15px 32px"
+    button.style.display = "inline-block"
+    button.style.color = "white"
+    button.style.margin = "4px 2px"
+    button.style.borderRadius = "50%"
     if(i == 0){
-        button.setAttribute("style", "background-color: red;")
+        button.style.backgroundColor = "red"
+    }
+    if(i == 1){
+        button.style.backgroundColor = "green"
+    }
+    if(i == 2){
+        button.style.backgroundColor = "blue"
     }
     gameGrid.appendChild(button)
 }
